@@ -11,7 +11,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background:url(../images/005.jpg);
+  background-image: linear-gradient(180deg, #00203FFF, #ADEFD1FF,yellow);
   background-attachment: scroll;
   background-repeat: round;
   background-size: cover;
