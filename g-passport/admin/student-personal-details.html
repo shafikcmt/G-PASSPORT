@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STUDENT PROFILE</title>
+    <title>Student Dashboard</title>
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -27,9 +27,9 @@
                 </div>
 
             </div>
-           <div class="card">
+            <div class="card">
                 <div class="card-header">
-                    <a  data-bs-toggle="collapse" href="#collapseTwo">
+                    <a class="" data-bs-toggle="collapse" href="#collapseTwo">
                         <li><i class="fa-solid fa-book-open-reader"></i> &nbsp; <span>Studetnt Details</span> </li>
                     </a>
                 </div>
@@ -38,15 +38,14 @@
 
 
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="student-profile.html">Student Profile</a></li>
                             <li class="list-group-item"><a href="change-profile.html">Change Profile</a></li>
+                            <li class="list-group-item"><a href="#">Second item</a></li>
                             <li class="list-group-item"><a href="#">Third item</a></li>
                             <li class="list-group-item"><a href="#">Fourth item</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-
 
             <div class="card">
                 <div class="card-header">
@@ -70,7 +69,7 @@
             <div class="card">
                 <div class="card-header">
                     <a class="" data-bs-toggle="collapse" href="#collapseFour">
-                        <li><i class="fa-solid fa-chart-line"></i> &nbsp; <span>Course Mapping</span> </li>
+                        <li><i class="fa-solid fa-chart-line"></i> &nbsp; <span>Technical Work</span> </li>
                     </a>
                 </div>
                 <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
@@ -89,7 +88,7 @@
             <div class="card">
                 <div class="card-header">
                     <a class="" data-bs-toggle="collapse" href="#collapseFive">
-                        <li><i class="fa-brands fa-playstation"></i> &nbsp; <span>Attempts</span> </li>
+                        <li><i class="fa-brands fa-playstation"></i> &nbsp; <span>Assessments Work</span> </li>
                     </a>
                 </div>
                 <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
@@ -108,10 +107,29 @@
             <div class="card">
                 <div class="card-header">
                     <a class="" data-bs-toggle="collapse" href="#collapseSixe">
-                        <li><i class="fa-solid fa-square-poll-horizontal"></i> &nbsp; <span>Results</span> </li>
+                        <li><i class="fa-solid fa-square-poll-horizontal"></i> &nbsp; <span>Placements Work</span> </li>
                     </a>
                 </div>
                 <div id="collapseSixe" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="#">First item</a></li>
+                            <li class="list-group-item"><a href="#">Second item</a></li>
+                            <li class="list-group-item"><a href="#">Third item</a></li>
+                            <li class="list-group-item"><a href="#">Fourth item</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <a class="" data-bs-toggle="collapse" href="#collapseSeven">
+                        <li><i class="fa-solid fa-square-poll-horizontal"></i> &nbsp; <span>Drive Skills</span> </li>
+                    </a>
+                </div>
+                <div id="collapseSeven" class="collapse" data-bs-parent="#accordion">
                     <div class="card-body">
 
                         <ul class="list-group list-group-flush">
@@ -130,72 +148,57 @@
     </div>
     <div class="container-custom">
         <div class="header">
-            <div class="nav">
-                <div class="search">
-                    <input type="text" placeholder="Search">
-                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </div>
-                <div class="user"><a href="" class="btn">Add New</a>
-                    <i class="fa-solid fa-bell"></i>
-                    <div class="img-case">
-                        <i class="fa-solid fa-user"></i>
-                    </div>
-                </div>
-            </div>
+            <h3 class="header-title text-left">Student Dashboard</h3>
         </div>
         <div class="content">
-            <div class="content-2">
-                <div class="student-list">
-                    <div class="title">
-                        <h2>STUDENTS PROFILES</h2>
-                        <a href="#" class="btn">BACK</a>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                            <h2 class="text-center">Edit Student Details</h2>
-                            <hr>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h2 class="text-center">Personal Details</h2>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                   <div class="col-md-2"></div>
+                                    <div class="col-md-8 col-md-offset-1">
+                                        <table class="table table-striped table-bordered">
+                                            <tr>
+                                                <th>Name</th>
+                                                <td>Sofik</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Roll Number</th>
+                                                <td>214587</td>
+                                            </tr>
+                                            <tr>
+                                                <th>College</th>
+                                                <td>Geeta University</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Branch</th>
+                                                <td>CSE</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Email</th>
+                                                <td>geeta@gmail.com</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Phone Number</th>
+                                                <td>+917404606419</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer">Footer</div>
                         </div>
-                        <div class="card-body">
-                            <form action="#">
-                                <div class="row">
-                                    <div class="col">
-                                        <label for="">Roll Numberspan <span style="color: red;">*</span></label>
-                                        <input value="214587" type="text" class="form-control" placeholder="Roll Number" name="email">
-                                    </div>
-                                    <div class="col">
-                                        <label for="">Name<span style="color: red;">*</span></label>
-                                        <input value="sofik" type="text" class="form-control" placeholder="Enter Name" name="pswd">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <label for="">Mobile<span style="color: red;">*</span></label>
-                                        <input value="740225812" type="text" class="form-control" placeholder="Enter Mobile number" name="email">
-                                    </div>
-                                    <div class="col">
-                                        <label for="">Email<span style="color: red;">*</span></label>
-                                        <input value="demo@gmail.com" type="email" class="form-control" placeholder="Enter Email" name="pswd">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <label for="">Branch<span style="color: red;">*</span></label>
-                                        <input value="CSE" type="text" class="form-control" placeholder="Enter Branch" name="email">
-                                    </div>
-                                    <div class="col">
-                                        <label for="">College<span style="color: red;">*</span></label>
-                                        <input value="GEC" type="text" class="form-control" placeholder="Enter College" name="pswd">
-                                    </div>
-                                </div>
-                                <br><br>
-                                <button class="btn btn-success">Update</button>
-                            </form>
-                        </div>
-                        <div class="card-footer">Footer</div>
                     </div>
                 </div>
-
             </div>
+
+
         </div>
     </div>
     <script src="js/jquery.min.js"></script>
