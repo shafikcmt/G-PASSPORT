@@ -5,9 +5,9 @@
     <title> Login and Registration Form in HTML & CSS | </title>
     
     <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-<!--    <link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="{{asset('fontend/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{asset('fontend/css/style.css')}}">
+<!--    <link rel="stylesheet" href="{{asset('fontend/css/bootstrap.min.css">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
@@ -15,20 +15,20 @@
     <input type="checkbox" id="flip">
     <div class="cover">
       <div class="front">
-        <img src="images/frontImg.jpg" alt="">
+        <img src="{{asset('fontend/images/frontImg.jpg')}}" alt="">
         <div class="text">
          <div class="logo">
-             <img style="height: 40px; width: 200px;" src="images/gsplogo.jpg" alt="">
+             <img style="height: 40px; width: 200px;" src="{{asset('fontend/images/gsplogo.jpg')}}" alt="">
          </div>
           <span class="text-1">G-PASSPORT CREATED BY</span>
           <span class="text-2">GEETA TECHNICAL HUB</span>
         </div>
       </div>
       <div class="back">
-        <img class="backImg" src="images/frontImg.jpg" alt="">
+        <img class="backImg" src="{{asset('fontend/images/frontImg.jpg')}}" alt="">
         <div class="text">
           <div class="logo">
-             <img style="height: 40px; width: 200px;" src="images/gsplogo.jpg" alt="">
+             <img style="height: 40px; width: 200px;" src="{{asset('fontend/images/gsplogo.jpg')}}" alt="">
          </div>
           <span class="text-1">Start your journey with  <br> G PASSPORT </span>
           <span class="text-2">Future is HERE</span>

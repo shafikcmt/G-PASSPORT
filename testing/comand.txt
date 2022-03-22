@@ -1,0 +1,7 @@
+Create new project
+Create a Database
+composer require laravel/jetstream
+php artisan jetstream:install livewire
+npm install && npm run dev
+php artisan migrate
+php artisan serve

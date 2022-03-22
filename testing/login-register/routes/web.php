@@ -13,11 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('admin', function () {
-    return view('admin.index');
-});
-
 Route::get('/', function () {
-    return view('fontend.index');
+    return view('welcome');
 });
 
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
