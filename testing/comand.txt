@@ -5,3 +5,23 @@ php artisan jetstream:install livewire
 npm install && npm run dev
 php artisan migrate
 php artisan serve
+
+
+
+*********************************************
+
+composer create-project --prefer-dist laravel/laravel gpassport
+
+composer require livewire/livewire
+
+php artisan make:livewire AdminDashboardComponent
+
+php artisan make:livewire StudentDashboardComponent
+
+php artisan make:livewire StudentLoginRegisterComponent
+
+php artisan make:livewire StudentListComponent
+
+php artisan make:livewire StudentProfileComponent
+
+php artisan make:livewire ChangeProfileComponent
