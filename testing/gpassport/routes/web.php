@@ -28,3 +28,6 @@ Route::get('/student',StudentDashboardComponent::class);
 Route::get('/allstudentlist',StudentListComponent::class);
 Route::get('/changeprofile',ChangeProfileComponent::class);
 Route::get('/studentprofile',StudentProfileComponent::class);
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');

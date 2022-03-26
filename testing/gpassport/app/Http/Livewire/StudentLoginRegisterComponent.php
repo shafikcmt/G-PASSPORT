@@ -8,6 +8,6 @@ class StudentLoginRegisterComponent extends Component
 {
     public function render()
     {
-        return view('livewire.student-login-register-component')->layout('layouts.header-base');
+        return view('livewire.student-login-register-component')->layout('layouts.admin-base');
     }
 }

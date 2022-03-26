@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+#headerpart {
+	height: 70px;
+	background: #eee;
+	width: 100%;
+}
+.logo{}
+.logo img {
+	height: 53px;
+	
+}
+.title{}
+.title h3 {
+	padding-top: 10px;
+}
+.right-menu{}
+.right-menu ul{}
+.right-menu ul li{
+    float: left;
+    list-style: none;
+    text-align: right;
+}
+.right-menu ul li i {
+	padding-left: 14px;
+	font-size: 17px;
+}
+.right-menu ul li a {
+	text-decoration: navajowhite;
+	color: #000;
+	font-weight: 476;
+	padding-left: 4px;
+}
+#contentpart {
+	height: 100vh;
+	width: 100%;
+	background: #E1E1E1;
+}
+#footerpart{
+    height: 80px;
+    background: black;
+    color: #fff;
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
