@@ -27,6 +27,6 @@ php artisan make:livewire StudentProfileComponent
 php artisan make:livewire ChangeProfileComponent
 
 ************************************************************
-composer create-project --prefer-dist laravel/laravel login-register
+composer create-project --prefer-dist laravel/laravel custom-login-register
 composer require laravel/jetstream
 php artisan jetstream:install livewire
